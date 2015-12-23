@@ -34,19 +34,7 @@ def problem_one():
     print 'The sum of all the mutlipes of ', x, ' or ', y, ' below ', z, ' is ', sum
     
 def problem_two():
-    final_sum = 0
-    low = 1
-    high = 1
-    temp_sum = 0
-    x = input('Enter a value for X: ')
-    while high < x:
-      temp_sum = high + low
-      if temp_sum % 2 == 0:
-        final_sum = final_sum + temp_sum
-      low = high
-      high = temp_sum
-    print(final_sum)
-      
+    print ('under construction')
 def problem_three():
     print ('under construction')
     
