@@ -49,7 +49,6 @@ def problem_two():
       
 def problem_three():
     print ('under construction')
-    #having trouble with GitHub upload, adding to test new save file
     
 main_menu()
 
