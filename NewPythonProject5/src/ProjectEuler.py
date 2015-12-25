@@ -48,7 +48,17 @@ def problem_two():
     print(final_sum)
       
 def problem_three():
-    print ('under construction')
-    
+    list_of_factors = []
+    current_possible_factor = 2
+    x = input('Enter a value for X: ')
+    current_total = x
+    while current_total != 1:
+        if current_total % current_possible_factor == 0:
+            list_of_factors.append(current_possible_factor)
+            current_total = current_total/current_possible_factor
+            current_possible_factor = 2
+        else:
+            current_possible_factor = current_possible_factor + 1
+    print'The largest prime factor of ', x, ' is ', max(list_of_factors), '.'     
 main_menu()
 
