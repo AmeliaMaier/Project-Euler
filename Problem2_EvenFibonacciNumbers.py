@@ -1,4 +1,4 @@
-max = 400000000
+max = 4000000
 fibonacci_num_low = 1
 fibonacci_num_high = 2
 fibonacci_sum = 0
